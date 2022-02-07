@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#ex_box {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: #d69b9b;
+}
+#ex_box::after {
+    content: "";
+    position: absolute;
+    top: 300px;
+    display: block;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #d69b9b, transparent);
+}
